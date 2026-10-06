@@ -50,6 +50,10 @@ npm run build
 npm test
 ```
 
+## Shared contracts
+
+- [API contract](docs/contracts/api-contract.md): the baseline for versioning, authentication, errors, validation, external providers, and endpoint delivery across projects.
+
 ## Future tools
 
 Future tools must be added one at a time, with an explicit scope, input validation, API-level authorization, tests, and confirmation requirements for destructive actions.

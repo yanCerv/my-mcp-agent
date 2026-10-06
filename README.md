@@ -53,6 +53,7 @@ npm test
 ## Shared contracts
 
 - [API contract](docs/contracts/api-contract.md): the baseline for versioning, authentication, errors, validation, external providers, and endpoint delivery across projects.
+- [Swift API client contract](docs/contracts/swift-client-contract.md): the baseline for secure session storage, token refresh, error handling, decoding, and feature mutations in iOS clients.
 
 ## Future tools
 

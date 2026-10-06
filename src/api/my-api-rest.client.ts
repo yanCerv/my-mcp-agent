@@ -1,6 +1,19 @@
 import { ApiRequestError } from '../errors/api-request.error.js';
 
-export interface CurrentUser { id: string; email: string; isActive: boolean; createdAt: string; }
+export interface UserProfile {
+  firstName: string | null;
+  lastName: string | null;
+  avatarUrl: string | null;
+  locale: string | null;
+}
+
+export interface CurrentUser {
+  id: string;
+  email: string;
+  isActive: boolean;
+  createdAt: string;
+  profile: UserProfile | null;
+}
 interface ApiError { statusCode: number; code: string; message: string; }
 
 export class MyApiRestClient {

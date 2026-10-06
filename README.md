@@ -8,7 +8,7 @@ The first tool is intentionally read-only:
 
 | Tool | Purpose |
 | --- | --- |
-| `get_current_user` | Retrieves the safe profile returned by `GET /api/v1/users/me`. |
+| `get_current_user` | Retrieves the safe user and optional profile returned by `GET /api/v1/users/me`. |
 
 The server never connects to PostgreSQL or Docker directly. It calls myAPIRest over HTTP, so it follows the same authentication, validation, and error contract as application clients.
 

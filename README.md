@@ -50,10 +50,17 @@ npm run build
 npm test
 ```
 
-## Shared contracts
+## Documentation architecture
 
-- [API contract](docs/contracts/api-contract.md): the baseline for versioning, authentication, errors, validation, external providers, and endpoint delivery across projects.
-- [Swift API client contract](docs/contracts/swift-client-contract.md): the baseline for secure session storage, token refresh, error handling, decoding, and feature mutations in iOS clients.
+The repository separates integration knowledge from technology-specific guidance:
+
+| Area | Purpose |
+| --- | --- |
+| [Contracts](docs/contracts/README.md) | Stable agreements between frontend, API, shared boundaries, and future gaming projects. |
+| [Skills](docs/skills/README.md) | Project-specific operating guidance for a language or framework; these point to official, versioned references instead of copying them. |
+| [Standards](docs/standards/README.md) | Cross-project rules for security, organization, delivery, and collaboration. |
+
+The initial active references are the [shared API contract](docs/contracts/shared/api-contract.md) and the [Swift client contract](docs/contracts/frontend/swift-client-contract.md).
 
 ## Future tools
 

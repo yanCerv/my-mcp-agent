@@ -1,6 +1,6 @@
 # Swift API Client Contract
 
-This contract defines how a Swift client integrates with APIs following the [API contract](api-contract.md). It protects session data, keeps networking behavior consistent, and gives the UI predictable errors.
+This contract defines how a Swift client integrates with APIs following the [API contract](../shared/api-contract.md). It protects session data, keeps networking behavior consistent, and gives the UI predictable errors.
 
 ## 1. Client boundaries
 
